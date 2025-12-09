@@ -32,6 +32,14 @@ Demonstrates the "Recoil" mechanics of correcting a model's trajectory. We force
 Identifies **Neuron 179**, a polysemantic neuron that activates for both "Technology" and "Nature."
 * **Key Finding:** Ambiguous words like "Web" and "Cloud" trigger the neuron at equal intensity, proving that multiple meanings exist in superposition until collapsed by context.
 
+### 5. Fractal Rejection (experiment_5_fractal_rejection.py)
+Tests the hypothesis of Hierarchical Steering: that "Truth" is a composite signal, and noise can be filtered out in stages using multiple Rejection Vectors at progressive depths. Instead of a single "Truth Vector," we applied a Multi-Stage Cascade Filter:
+Layer 4 (Coarse): Rejects Gibberish/Syntax errors (Coherence Vector).
+Layer 7 (Medium): Rejects Non-Sequiturs (Logic Vector).
+Layer 10 (Fine): Rejects the "Texture" of Lying (Fact Vector).
+* **Key Test: Comparing the model's hallucination style on the prompt "The scientist discovered that the moon is made of..."
+* **Key Finding: The control generation drifted into "Dream Logic" (gravity jets and contradictions). The fractal generation shifted into "Hard Science" Texture (silica, sulfur, crystals). While the model still hallucinated specific facts (due to size constraints), the Genre of the Hallucination was successfully steered from "Low-Mass Nonsense" to "High-Mass Materialism."
+
 ## 🛠️ Installation & Usage
 
 ### Prerequisites
